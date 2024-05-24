@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+ 
 const Main = () => {
   return (
     <div className='divider'>
