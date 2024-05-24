@@ -1,0 +1,48 @@
+.header {
+  background-color: black;
+  color: rgb(222, 133, 133);
+  font-size: 25px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  height: 50px;
+  align-items: center;
+  margin: 0;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+body {
+  margin-top: 70px;
+background-repeat: no-repeat;
+background-attachment: fixed;
+  background-image: linear-gradient(to right bottom, green,green, blue);
+}
+.counter-btn {
+  background-image: radial-gradient(rgb(227, 19, 19), orange, yellow);
+  width: 25%;
+  height: 5vh;
+  color: white;
+  border: 2px solid green;
+  border-radius: 6px;
+  box-shadow: 1px 1px 12px rgba(14, 1, 1, 0.6);
+}
+
+.main {
+  background-color: rgba(255, 255, 255, 0.6);
+  box-shadow: 10px 10px 100px black;
+  margin: 20px;
+  text-align: center;
+  width:40%;
+  
+}
+.divider {
+  display: flex;
+  justify-content: space-around;
+}
+
+p {
+  margin: 12px;
+  text-align: left;
+}
